@@ -4,6 +4,70 @@
   <meta charset="UTF-8">
   <title>Áreas - Explorando o Mar</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Container principal */
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start; /* deixa mais para a esquerda */
+      padding: 40px 80px; /* padding maior nas laterais */
+      max-width: 900px; /* largura total do container */
+      margin: 0 auto; /* centraliza o container na página */
+    }
+
+    h1 {
+  text-align: center; /* título centralizado */
+  width: 100%;        /* garante que ocupe toda a largura do container */
+  margin-bottom: 30px;}
+
+
+    .area {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      margin: 20px 0;
+      width: 100%; /* ocupa toda largura do container */
+    }
+
+    .area.par {
+      flex-direction: row-reverse; /* botão à direita, texto à esquerda */
+    }
+
+    .area-botao {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background-color: #0288d1;
+      color: white;
+      border: none;
+      font-size: 14px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10px;
+      transition: transform 0.2s;
+    }
+
+    .area-botao:hover {
+      transform: scale(1.1);
+    }
+
+    .area-texto {
+      font-family: 'Madimi One', sans-serif;
+      font-size: 16px;
+      text-align: justify;
+      line-height: 1.5;
+      flex: 1;
+      max-width: 700px; /* deixa o texto ocupar mais espaço, mas com bordas */
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+  </style>
 </head>
 <body>
 
@@ -16,15 +80,49 @@
 
 <div class="content">
   <h1>Áreas do Oceano</h1>
-  <p>Escolha uma das áreas abaixo para explorar:</p>
-  <ul style="list-style:none; padding:0;">
-    <li><a href="pe_na_areia.html">Pé na Areia</a></li>
-    <li><a href="beira_mar.html">Beira Mar</a></li>
-    <li><a href="corais.html">Corais</a></li>
-    <li><a href="alto_mar.html">Alto Mar</a></li>
-    <li><a href="profundezas.html">Profundezas</a></li>
-    <li><a href="polos.html">Polos</a></li>
-  </ul>
+  
+  <div class="area">
+    <button class="area-botao" onclick="location.href='pe_na_areia.html'">Pé na Areia</button>
+    <div class="area-texto">
+      O "Pé na Areia" é a área mais próxima da praia, onde é possível observar conchas, pequenas ondas e peixes rasos. Aqui, crianças podem explorar de forma segura e aprender sobre os pequenos crustáceos e plantas que habitam a areia.
+    </div>
+  </div>
+
+  <div class="area par">
+    <button class="area-botao" onclick="location.href='beira_mar.html'">Beira Mar</button>
+    <div class="area-texto">
+      A Beira Mar apresenta ondas maiores e diversos tipos de peixes e crustáceos. As crianças podem observar a fauna e flora marinha e aprender sobre a importância da preservação das praias.
+    </div>
+  </div>
+
+  <div class="area">
+    <button class="area-botao" onclick="location.href='corais.html'">Corais</button>
+    <div class="area-texto">
+      Os corais formam recifes coloridos e são lar de muitos peixes. Explorar essa área permite aprender sobre a biodiversidade e a importância dos recifes.
+    </div>
+  </div>
+
+  <div class="area par">
+    <button class="area-botao" onclick="location.href='alto_mar.html'">Alto Mar</button>
+    <div class="area-texto">
+      No Alto Mar, encontramos peixes maiores e águas profundas. As crianças aprendem sobre as espécies migratórias e as correntes marítimas.
+    </div>
+  </div>
+
+  <div class="area">
+    <button class="area-botao" onclick="location.href='profundezas.html'">Profundezas</button>
+    <div class="area-texto">
+      As Profundezas escondem criaturas fascinantes que vivem em ambientes sem luz. Uma oportunidade de conhecer peixes bioluminescentes e pressões extremas.
+    </div>
+  </div>
+
+  <div class="area par">
+    <button class="area-botao" onclick="location.href='polos.html'">Polos</button>
+    <div class="area-texto">
+      Nos Polos, encontramos animais adaptados ao frio, como pinguins e focas, além de geleiras e águas geladas.
+    </div>
+  </div>
+
 </div>
 
 <footer class="site-footer">
