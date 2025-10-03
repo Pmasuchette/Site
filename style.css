@@ -1,0 +1,148 @@
+/* Fonte Madimi One importada */
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+/* =================== Estilos Gerais =================== */
+
+body {
+  font-family: "Madimi One", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #e0f7fa;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1; /* ocupa todo o espaço restante */
+}
+
+/* Rodapé */
+.site-footer {
+  background: #0288d1;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-family: 'Madimi One', sans-serif;
+}
+.site-footer .rede span {
+  font-family: Arial, sans-serif;
+}
+
+
+nav {
+  background: #0288d1;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Madimi One', sans-serif;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  font-family: 'Madimi One', sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+.content p {
+  text-align: justify;
+  margin: 20px auto;
+  width: 80%;
+  line-height: 1.6;
+}
+
+.content h1, .content h2 {
+  font-family: 'Madimi One', sans-serif;
+}
+
+.content h1 {
+  color: #01579b;
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  color: #01579b;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* =================== Flex Layout para Sobre =================== */
+.flex-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.flex-content img {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.flex-content .text {
+  max-width: 500px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* =================== Rodapé =================== */
+.site-footer {
+  font-family: 'Madimi One', sans-serif;
+  background: #0288d1;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.site-footer .contato {
+  font-family: 'Madimi One', sans-serif;
+  font-size: 18px;
+}
+
+.site-footer .redes-sociais {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.site-footer .rede {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.site-footer .rede img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Força Madimi One em tudo no rodapé, exceto textos das redes sociais */
+.site-footer *:not(.rede span) {
+  font-family: 'Madimi One', sans-serif;
+}
+
+.site-footer .rede span {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
