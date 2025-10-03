@@ -17,40 +17,33 @@ body {
   flex: 1; /* ocupa todo o espaço restante */
 }
 
-/* Rodapé */
-.site-footer {
-  background: #0288d1;
-  color: white;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  font-family: 'Madimi One', sans-serif;
-}
-.site-footer .rede span {
-  font-family: Arial, sans-serif;
-}
-
 
 nav {
-  background: #0288d1;
-  padding: 10px;
-  text-align: center;
+  background-color: #4676a8;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: center; /* centraliza os botões no nav */
+  gap: 20px;
+  flex-wrap: wrap; /* para telas menores, quebra linha */
 }
 
 nav a {
   color: white;
-  margin: 0 15px;
   text-decoration: none;
-  font-weight: bold;
   font-family: 'Madimi One', sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 2px solid white; /* borda branca */
+  border-radius: 12px;     /* cantos arredondados */
+  transition: all 0.3s ease;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: white;  /* fundo branco no hover */
+  color: #4676a8;           /* texto azul no hover */
+  transform: scale(1.05);   /* efeito de leve aumento */
 }
+
 
 .content {
   font-family: 'Madimi One', sans-serif;
@@ -70,12 +63,12 @@ nav a:hover {
 }
 
 .content h1 {
-  color: #01579b;
+  color: #002b42;
   margin-bottom: 20px;
 }
 
 .content h2 {
-  color: #01579b;
+  color: #4676a8;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -105,7 +98,7 @@ nav a:hover {
 /* =================== Rodapé =================== */
 .site-footer {
   font-family: 'Madimi One', sans-serif;
-  background: #0288d1;
+  background: #4676A8;
   color: white;
   padding: 20px;
   display: flex;
