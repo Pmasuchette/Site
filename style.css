@@ -16,10 +16,53 @@ body {
 .content {
   flex: 1; /* ocupa todo o espaço restante */
 }
+/* ====== Cabeçalho das Áreas ====== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4676A8;
+  padding: 10px 180px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+header a img {
+  height: 60px; /* tamanho fixo e equilibrado */
+  width: auto;  /* mantém proporção natural */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+header a img:hover {
+  transform: scale(1.05);
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Madimi One', sans-serif;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: 2px solid white;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+header nav a:hover {
+  background-color: white;
+  color: #4676A8;
+  transform: scale(1.05);
+}
 
 
 nav {
-  background-color: #4676a8;
+  background-color: #4676A8;
   padding: 15px 40px;
   display: flex;
   justify-content: center; /* centraliza os botões no nav */
@@ -63,12 +106,12 @@ nav a:hover {
 }
 
 .content h1 {
-  color: #002b42;
+  color: #4676A8;
   margin-bottom: 20px;
 }
 
 .content h2 {
-  color: #4676a8;
+  color: #4676A8;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -96,16 +139,17 @@ nav a:hover {
 }
 
 /* =================== Rodapé =================== */
+/* =================== Rodapé =================== */
 .site-footer {
   font-family: 'Madimi One', sans-serif;
   background: #4676A8;
   color: white;
   padding: 20px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column; /* empilha tudo em coluna */
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 15px;
 }
 
 .site-footer .contato {
@@ -116,7 +160,8 @@ nav a:hover {
 .site-footer .redes-sociais {
   display: flex;
   align-items: center;
-  gap: 15px;
+  justify-content: center;
+  gap: 20px;
 }
 
 .site-footer .rede {
@@ -139,3 +184,103 @@ nav a:hover {
   font-family: Arial, sans-serif;
   font-size: 14px;
 }
+
+.marca-registrada {
+  text-align: center;
+  font-size: 0.9em;
+  color: #dbeeff;
+  margin-top: 10px;
+  font-family: 'Madimi One', sans-serif;
+}
+/* =================== Carrossel Contínuo Infinito =================== */
+.carrossel-continuo {
+  width: 100%;
+  overflow: hidden;
+  background: #cbe7f4;
+  padding: 20px 0;
+  position: relative;
+}
+
+.carrossel-faixa {
+  display: flex;
+  width: max-content;
+  animation: deslizar 40s linear infinite;
+}
+
+.carrossel-faixa img {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+}
+
+@keyframes deslizar {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.inicio-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+  background: #e0f7fa;
+}
+
+.inicio-logo {
+  width: 300px;
+  max-width: 35%;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.inicio-texto {
+  max-width: 600px;
+}
+
+.inicio-texto h1 {
+  color: #004d73;
+  font-family: 'Madimi One', sans-serif;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.inicio-texto p {
+  font-family: 'Madimi One', sans-serif;
+  color: #022c43;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .inicio-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .inicio-logo {
+    width: 70%;
+    max-width: 300px;
+  }
+
+  .inicio-texto {
+    max-width: 90%;
+  }
+
+  .inicio-texto h1 {
+    text-align: center;
+  }
+}
+.area-botao{ font-family: 'Madimi One', sans-serif;}

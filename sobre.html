@@ -2,9 +2,70 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Sobre - Explorando o Mar</title>
+  <title>Sobre - Pequenos Navegantes</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<style>
+  /* =================== Seção SOBRE =================== */
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;                /* espaço entre imagem e texto */
+  padding: 60px 80px;
+  flex-wrap: wrap;          /* para telas menores, empilha */
+  text-align: left;
+}
+
+.content img {
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.content .text {
+  max-width: 600px;
+}
+
+.content .text h1 {
+  color: #004d73;
+  font-family: 'Madimi One', sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content .text p {
+  font-family: 'Madimi One', sans-serif;
+  color: #022c43;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 900px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .content img {
+    width: 80%;
+    max-width: 320px;
+  }
+
+  .content .text {
+    max-width: 90%;
+  }
+
+  .content .text h1 {
+    text-align: center;
+  }
+}
+
+</style>
 <body>
 
   <nav>
@@ -21,20 +82,13 @@
       <p>
         Somos um grupo de estudantes do IFSP e criamos este site com um propósito muito especial: ensinar as crianças sobre o fascinante mundo oceânico de uma maneira simples, divertida e cheia de curiosidades!
 O oceano é muito mais do que um imenso corpo de água – ele é um verdadeiro tesouro de biodiversidade, repleto de vida e essencial para a nossa sobrevivência. Sabia que o oceano regula o clima, fornece alimento e abriga milhares de espécies? Acreditamos que, ao compartilhar esses conhecimentos, podemos inspirar as novas gerações a proteger esse ecossistema incrível.
-Aqui, queremos que as crianças se encantem pelo mar, entendam sua importância para o equilíbrio do nosso planeta e se tornem pequenos defensores do oceano. Afinal, cada descoberta é um passo para preservar o que é nosso.
+<br>Aqui, queremos que as crianças se encantem pelo mar, entendam sua importância para o equilíbrio do nosso planeta e se tornem pequenos defensores do oceano. Afinal, cada descoberta é um passo para preservar o que é nosso.
 Está pronto para embarcar nessa aventura e aprender tudo sobre o universo do oceano? Prepare-se para navegar e se surpreender!
       </p>
     </div>
   </div>
 
-  <footer class="site-footer">
-    <div class="contato">Contato:</div>
-    <div class="redes-sociais">
-      <div class="rede"><img src="rs1.png" alt="Facebook"><span>Facebook</span></div>
-      <div class="rede"><img src="rs2.png" alt="Instagram"><span>Instagram</span></div>
-      <div class="rede"><img src="rs3.png" alt="Twitter"><span>Twitter</span></div>
-    </div>
-  </footer>
+<script src="footer.js"></script>
 
 </body>
 </html>
