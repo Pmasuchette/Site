@@ -1,0 +1,8 @@
+- Abas laterais 1
+- Vídeos youtube 2
+- Jogos 3
+- Paleta 3
+- Transplante de imagens 4 e 5
+- Colar Imagens 4 e 5
+- Organizar Imagens 4 e 5
+-  CSS 'Áreas' 4 e 5 
