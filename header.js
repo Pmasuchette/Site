@@ -1,7 +1,7 @@
    document.write(`<header class="header-areas">
   <!-- Logo clicável -->
   <a href="index.html" class="logo">
-    <img src="logo.png" alt="Logo Pequenos Navegantes">
+    <img src="./fotos/logo.png" alt="Logo Pequenos Navegantes">
   </a>
 
   <!-- Botões das seis áreas -->
@@ -15,4 +15,5 @@
   </nav>
 
 </header>`);
+
 
