@@ -23,33 +23,30 @@
       width="560" 
       height="315" 
       alt="Descrição da imagem">
-    
-    <div class="tema-botao" 
-     style="--cor-bg: #F8DD8D; --cor-borda: #6E380C; --cor-texto: #6E380C;">
-  <a href="https://youtu.be/EGkYCQ1cZ50" target="_blank" class="meu-botao-link">
-    Assistir
-  </a>
-</div>
-<style>
-  .meu-botao-link {
+.meu-botao-link {
     width: 120px;
     height: 44px;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
-
+    text-decoration: none;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
     background-color: var(--cor-bg);
     color: var(--cor-texto);
     border: 2px solid var(--cor-borda);
-
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     outline: none;
-  }
-
-  .meu-botao:hover {
-  background-color: #F1C43B;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.3s ease;
+    margin: 20px auto 0;
+}
+.meu-botao-link:hover {
+    background-color: #F1C43B;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
+}
+.tema-botao {
+    width: 100%; 
 }
 </style>
     
