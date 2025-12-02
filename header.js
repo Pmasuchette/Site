@@ -6,7 +6,7 @@
 
   <!-- Botões das seis áreas -->
   <nav class="areas-nav">
-    <a href="pe_na_areia.html">Pé na Areia</a>
+    <a href="./html/pe_na_areia.html">Pé na Areia</a>
     <a href="beira_mar.html">Beira Mar</a>
     <a href="corais.html">Corais</a>
     <a href="alto_mar.html">Alto Mar</a>
