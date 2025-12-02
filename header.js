@@ -7,11 +7,12 @@
   <!-- Botões das seis áreas -->
   <nav class="areas-nav">
     <a href="./html/pe_na_areia.html">Pé na Areia</a>
-    <a href="beira_mar.html">Beira Mar</a>
-    <a href="corais.html">Corais</a>
-    <a href="alto_mar.html">Alto Mar</a>
-    <a href="profundezas.html">Profundezas</a>
-    <a href="polos.html">Polos</a>
+    <a href="./html/beira_mar.html">Beira Mar</a>
+    <a href="./html/corais.html">Corais</a>
+    <a href="./html/alto_mar.html">Alto Mar</a>
+    <a href="./html/profundezas.html">Profundezas</a>
+    <a href="./html/polos.html">Polos</a>
   </nav>
 
 </header>`);
+
