@@ -289,6 +289,13 @@ nav a:hover {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin: 0 auto;
+}
+.meu-botao-1,
+.meu-botao-1:visited,
+.meu-botao-1:hover,
+.meu-botao-1:active {
+  text-decoration: none !important;
 }
 .meu-botao-1 {
   text-decoration: none;
