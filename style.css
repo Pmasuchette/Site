@@ -322,97 +322,52 @@ nav a:hover {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
-.meu-botao-2 {
-  width: 120px;
-  height: 44px;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-
+.beira-mar-botões {
   background-color: #AFE1E9;
   color: #164046;
   border: 2px solid #164046;
-
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  outline: none;
 }
-.meu-botao-2:hover {
+.beira-mar-botões:hover {
   background-color: #64C3D3;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
-.meu-botao-3 {
-  width: 120px;
-  height: 44px;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-
+.corais-botões {
   background-color: #FFA599;
   color: #4D0900;
   border: 2px solid #4D0900;
-
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  outline: none;
 }
-.meu-botao-3:hover {
+.corais-botões:hover {
   background-color: #FF614D;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
-.meu-botao-4 {
-  width: 120px;
-  height: 44px;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-
+.alto-mar-botões {
   background-color: #9ACAFA;
   color: #002B42;
   border: 2px solid #002B42;
-
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  outline: none;
 }
-.meu-botao-4:hover {
+.alto-mar-botões:hover {
   background-color: #B3E4FF;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
-.meu-botao-5 {
-  width: 120px;
-  height: 44px;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-
+.profundezas-botões {
   background-color: #00497B;
   color: #FFFFFF;
   border: 2px solid #FFFFFF;
-
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  outline: none;
 }
-.meu-botao-5:hover {
+.profundezas-botões:hover {
   background-color: #007DD1;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
-.meu-botao-6 {
-  width: 120px;
-  height: 44px;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-
+.polos-botões {
   background-color: #AAC1CF;
   color: #000000;
   border: 2px solid #000000;
-
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  outline: none;
 }
-.meu-botao-6:hover {
+.polos-botões:hover {
   background-color: #EBEBEB;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
