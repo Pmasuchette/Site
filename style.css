@@ -101,9 +101,8 @@ nav a:hover {
 }
 
 .content p {
-  text-align: justify;
   margin: 20px auto;
-  width: 80%;
+  width: 100%;
   line-height: 1.6;
 }
 
