@@ -291,13 +291,13 @@ nav a:hover {
   width: 100%;
   margin: 0 auto;
 }
-.meu-botao-1,
-.meu-botao-1:visited,
-.meu-botao-1:hover,
-.meu-botao-1:active {
+.meu-botao,
+.meu-botao:visited,
+.meu-botao:hover,
+.meu-botao:active {
   text-decoration: none !important;
 }
-.meu-botao-1 {
+.meu-botao {
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -309,14 +309,15 @@ nav a:hover {
   font-size: 16px;
   cursor: pointer;
 
-  background-color: #F8DD8D;
-  color: #6E380C;
-  border: 2px solid #6E380C;
-
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   outline: none;
 }
-.meu-botao-1:hover {
+.pé-na-areia-botões {
+  background-color: #F8DD8D;
+  color: #6E380C;
+  border: 2px solid #6E380C;
+}
+.pé-na-areia-botões:hover {
   background-color: #F1C43B;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
