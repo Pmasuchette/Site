@@ -286,6 +286,10 @@ nav a:hover {
 .area-botao{ font-family: 'Madimi One', sans-serif;}
 /*=======================================Botões=========================================*/
 .meu-botao-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
   width: 120px;
   height: 44px;
   border-radius: 8px;
