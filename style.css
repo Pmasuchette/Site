@@ -374,10 +374,18 @@ nav a:hover {
 }
 .container-botoes-final {
   display: flex;
-  justify-content: space-between;
   width: 100%;
   padding: 0 40px;
   margin-bottom: 40px;
+}
+.container-botoes-final.direita {
+  justify-content: flex-end;
+}
+.container-botoes-final.esquerda {
+  justify-content: flex-start;
+}
+.container-botoes-final.meio {
+  justify-content: space-between;
 }
 .botao span {
   margin: 0 6px;
