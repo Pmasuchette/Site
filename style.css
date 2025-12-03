@@ -371,7 +371,7 @@ nav a:hover {
 .polos-botões {
   background-color: #AAC1CF;
   color: #000000;
-  border: 2px solid #000000;
+  border: 0px solid #000000;
 }
 .polos-botões:hover {
   background-color: #EBEBEB;
